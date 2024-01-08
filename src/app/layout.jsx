@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import "./globals.css";
+import SearchHeader from "@/components/SearchHeader";
 
 export const metadata = {
   title: "Google clone",
@@ -8,12 +9,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body>
-        {children}
-        {/* Footer */}
-        <Footer />
-      </body>
-    </html>
+    <div>
+      {children}
+      {/* Footer */}
+      <Footer />
+    </div>
   );
 }

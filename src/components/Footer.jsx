@@ -20,7 +20,7 @@ export default function Footer() {
           <li className="link">Business</li>
           <li className="link">How Search works</li>
         </ul>
-        <ul className="flex">
+        <ul className="flex items-center space-x-6">
           <li className="link">Privacy</li>
           <li className="link">Terms</li>
           <li className="link">Settings</li>
