@@ -4,7 +4,7 @@ import "./../globals.css";
 export default function SearchLayout({ children }) {
   return (
     <div>
-      <body>
+      <body className="relative min-h-screen">
         <SearchHeader />
         {children}
         {/* Footer */}
