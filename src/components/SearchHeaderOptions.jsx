@@ -3,7 +3,7 @@
 import React from "react";
 import { AiOutlineCamera, AiOutlineSearch } from "react-icons/ai";
 import { usePathname, useRouter } from "next/navigation";
-import { useSearchParam } from "react-use";
+import { useSearchParam } from "next/navigation";
 
 export default function SearchHeaderOptions() {
   const pathname = usePathname();
