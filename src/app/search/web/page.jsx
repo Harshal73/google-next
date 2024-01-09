@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import WebSearchResults from "@/components/WebSearchResults";
 
 export default async function WebSearchPage({ searchParams }) {
